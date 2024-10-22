@@ -1,0 +1,230 @@
+/* Importar fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto+Slab:wght@300&display=swap');
+
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3EDE0;
+    color: #3E3E3E;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1, h2, h3 {
+    color: #4A3D33;
+}
+
+p {
+    color: #5A5A5A;
+}
+
+/* Navegación */
+.header {
+    background-color: #A67B5B;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #FFF;
+    font-weight: 500;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: #8B5E3C;
+    border-radius: 5px;
+}
+
+/* Hero (Inicio) */
+.hero {
+    background-image: url('../img/dark-heavy-clouds-above-the-autumn-landscape-free-photo.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    color: #FFF;
+    font-family: 'Roboto Slab', serif;
+}
+
+.hero-content p {
+    font-size: 20px;
+    color: #F3EDE0;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #A67B5B;
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #8B5E3C;
+}
+
+/* Menú */
+.menu-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.menu-item {
+    background-color: #EAE7DC;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Reservas */
+.reservas-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+input, button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #A67B5B;
+    color: #FFF;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #8B5E3C;
+}
+
+/* Footer */
+.footer {
+    background-color: #A67B5B;
+    color: #FFF;
+    text-align: center;
+    padding: 20px 0;
+}
+.header.scrolled {
+    background-color: #8B5E3C;
+}
+
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f3ede0;
+    color: #333;
+}
+
+/* Carrusel */
+.carousel-container {
+    position: relative;
+    max-width: 1024px;
+    margin: 50px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-slide {
+    display: flex;
+    transition: transform 0.4s ease-in-out;
+}
+
+.carousel-slide img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Botones de navegación */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 16px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 18px;
+    border-radius: 50%;
+    user-select: none;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}

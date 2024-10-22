@@ -1,0 +1,36 @@
+.nombredeColor{
+    color: red;
+    color: green;
+    color: blue;
+    color: white;
+    color: black;
+    color: gray;
+    color: orange;
+}
+.coloresRGB{
+    color: rgb(red, green, blue);
+    color: rgb(77, 94, 203);
+    color: rgb(0,255,0);
+    color: rgb(0,0,255);
+    color: rgb(255,255,255);
+    color: rgb(0,0,0);
+    color: rgb(141, 44, 44);
+    color: rgb(200,200,200);
+    color: rgb(255,160,0);
+}
+.coloresHeadecimales{
+    color: #096d14;
+    color: #b12f2f;
+    color: #00FF00;
+    color: #0000ff;
+    color: #ffffff;
+    color: #000000;
+    color: #555555;
+    color: #cccccc;
+    color: #FF9900;
+}
+
+.coloresRGBA{
+    /*colores contransparencia */
+    color: rgba(255, 139, 30, 0.51);
+}

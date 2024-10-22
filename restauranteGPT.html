@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Restaurante Sabores de la Tierra</title>
+    <link rel="stylesheet" href="css/chatgpt.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navegación -->
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">Sabores de la Tierra</div>
+            <ul class="nav-links">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="#reservas">Reservas</a></li>
+                <li><a href="#about">Acerca de</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Inicio -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Bienvenidos a Sabores de la Tierra</h1>
+            <p>Sabores auténticos y pasión en cada bocado.</p>
+            <a href="#reservas" class="btn">Reserva Ahora</a>
+        </div>
+    </section>
+
+    <!-- Menú -->
+    <section id="menu" class="menu-section">
+        <h2>Menú</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="platillo1.jpg" alt="Platillo 1">
+                <h3>Entradas</h3>
+                <p>Descripción del platillo</p>
+            </div>
+            <div class="menu-item">
+                <img src="platillo2.jpg" alt="Platillo 2">
+                <h3>Plato Principal</h3>
+                <p>Descripción del platillo</p>
+            </div>
+            <!-- Agregar más platillos según sea necesario -->
+        </div>
+    </section>
+
+    <!-- Carrusel -->
+    <section id="carousel" class="carousel-container">
+        <div class="carousel-slide">
+            <!-- Imágenes del carrusel -->
+            <img src="img/dark-heavy-clouds-above-the-autumn-landscape-free-photo.jpg" alt="Imagen 1 de café">
+            <img src="img/paisaje-urbano-panoramica.webp" alt="Imagen 2 de café">
+            <img src="img/photo-1494500764479-0c8f2919a3d8.jpg" alt="Imagen 3 de café">
+            <img src="img/istockphoto-824182502-2048x2048.jpg" alt="Imagen 4 de café">
+        </div>
+        
+        <!-- Botones de navegación -->
+        <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
+        <a class="next" onclick="moveSlide(1)">&#10095;</a>
+    </section>
+
+    <!-- Script de JavaScript -->
+    <script src="script.js"></script>
+
+    <!-- Reservas -->
+    <section id="reservas" class="reservas-section">
+        <h2>Reservas</h2>
+        <form action="#" method="POST">
+            <label for="fecha">Fecha</label>
+            <input type="date" id="fecha" name="fecha" required>
+            
+            <label for="hora">Hora</label>
+            <input type="time" id="hora" name="hora" required>
+            
+            <label for="personas">Número de Personas</label>
+            <input type="number" id="personas" name="personas" min="1" max="10" required>
+            
+            <button type="submit" class="btn">Reservar</button>
+        </form>
+    </section>
+
+    <!-- Acerca de -->
+    <section id="about" class="about-section">
+        <h2>Acerca de Nosotros</h2>
+        <p>Nuestra pasión por la cocina y el uso de ingredientes frescos se reflejan en cada platillo que servimos. En Sabores de la Tierra, nos comprometemos con la sostenibilidad y la cocina local.</p>
+        <img src="interior.jpg" alt="Interior del Restaurante">
+    </section>
+
+    <!-- Contacto -->
+    <section id="contact" class="contact-section">
+        <h2>Contacto</h2>
+        <p>Visítanos o ponte en contacto con nosotros:</p>
+        <ul>
+            <li>Teléfono: +123 456 789</li>
+            <li>Dirección: Calle Falsa 123, Ciudad</li>
+            <li>Email: contacto@saboresdelatierra.com</li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Sabores de la Tierra. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

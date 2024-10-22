@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body{
+    background-color: chocolate;
+    background-image: url(../img/Intro-705x470.jpg) ;
+}
+h1{
+    background-color: tomato;
+    color: white;
+    text-align: center;
+    font-family: "Pacifico", cursive;
+}
+p{
+    text-align: justify;
+    color: gray;
+    font-size: 18px;
+}
+article h1{
+    background-color: black;
+    text-transform:uppercase;
+    padding: 15px;
+    border-bottom: 5px solid tomato;
+}
+header{
+    padding: 15px;
+}
+
+img{
+    width: 100%;
+}
+#logo{
+
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    font-size: 72px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    line-height: 150px;
+    -webkit-border-radius: 100px 0;
+    border-radius: 100px 0;
+    -webkit-box-shadow: 0 0 12px 0 #6E424B;
+box-shadow: 0 0 12px 0 #6E424B;
+
+-webkit-transition: all 700ms ease-in-out;
+-moz-transition: all 700ms ease-in-out;
+-ms-transition: all 700ms ease-in-out;
+-o-transition: all 700ms ease-in-out;
+transition: all 700ms ease-in-out;
+}
+#logo:hover{
+    -moz-transform: scale(1.5) rotate(360deg);
+    -webkit-transform: scale(1.5) rotate(360deg);
+    -o-transform: scale(1.5) rotate(360deg);
+    -ms-transform: scale(1.5) rotate(360deg);
+    transform: scale(1.5) rotate(360deg);
+
+    -webkit-transition: all 700ms ease-in-out;
+-moz-transition: all 700ms ease-in-out;
+-ms-transition: all 700ms ease-in-out;
+-o-transition: all 700ms ease-in-out;
+transition: all 700ms ease-in-out;
+}
+
+.destacado{
+    text-align: right;
+    color: brown;
+    font-style:italic;
+    width: 70%;
+    margin-left: 20%;
+}
+.otroEstilo{
+    background-color: aqua;
+
+    /* Margen interno
+    padding-top: 50px;
+    padding-right: 80px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding: 80px 50px 80px 50px; 
+    padding: 80px 50px; */
+    padding: 20px;
+
+  /*  margin-top: 150px;
+    margin-right: 50px;
+    margin-bottom: 150px;
+    margin-left: 70px;*/
+/*    margin: 100px 80px 15px 50px;*/ 
+    margin: 50px 15px;
+
+    border-top: red 3px solid;
+    border-right: 7px orange dashed;
+    border-bottom: purple 11px dotted;
+    border-left: double 14px yellowgreen;
+}
+nav li{
+    display: inline;
+}
+nav a:link, nav a:visited{
+    color: orange;
+    text-decoration:none;
+    padding: 6px 8px;
+    border: solid 1px black;
+
+    -webkit-transition: all 700ms ease-in-out;
+-moz-transition: all 700ms ease-in-out;
+-ms-transition: all 700ms ease-in-out;
+-o-transition: all 700ms ease-in-out;
+transition: all 700ms ease-in-out;
+}
+nav a:hover{
+    background-color: brown;
+    color: white;
+
+    -webkit-transition: all 700ms ease-in-out;
+-moz-transition: all 700ms ease-in-out;
+-ms-transition: all 700ms ease-in-out;
+-o-transition: all 700ms ease-in-out;
+transition: all 700ms ease-in-out;
+}
+nav a:active{
+    background-color: black;
+}
+.todo{
+    width: 1200px;
+    background-color: rgba(57, 169, 229, 0.843);
+    margin: 0 auto;
+    -webkit-box-shadow: 0 0 12px 0 #6E424B;
+    box-shadow: 0 0 12px 0 #6E424B;
+}
